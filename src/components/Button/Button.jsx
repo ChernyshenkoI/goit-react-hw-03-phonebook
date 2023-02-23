@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+
 class Button extends Component {
   render() {
     return <StyledBtn type="submit">Add contact</StyledBtn>;
@@ -8,7 +9,6 @@ class Button extends Component {
 }
 
 export default Button;
-
 export const StyledBtn = styled.button`
   cursor: pointer;
   &:hover,
@@ -16,7 +16,6 @@ export const StyledBtn = styled.button`
     background-color: green;
     color: yellow;
   }
-
   width: 100px;
   height: 30px;
   font-size: 14px;
@@ -25,5 +24,4 @@ export const StyledBtn = styled.button`
   background-color:yellow;
   border-radius: 5px;
   border-color: blue;
-
 `;
