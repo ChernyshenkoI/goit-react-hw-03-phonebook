@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Button from 'components/Button/Button';
 
 
-const LOCAL_KEY="index";
+// const LOCAL_KEY= "index";
 
 class ContactsForm extends Component {
   state = {
